@@ -74,7 +74,7 @@
           <option value="" disable selected>Choose Category</option>
           {% for category in categories %}
           <option value="{{ category.id }}">
-            {{ category.category_name }}
+            {{- category.category_name -}}
           </option>
           {% endfor %}
         </select>
